@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css';
 const Contact = () => {
   return (
-    <section id="contact">Contact</section>
+    <section id="contacts">Contact</section>
   )
 }
 

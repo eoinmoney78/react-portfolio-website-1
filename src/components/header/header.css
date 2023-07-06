@@ -55,15 +55,15 @@ header {
     margin-top: 3rem;
     overflow: hidden;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-   
+   border-radius: 20px;
 }
 
 
 /* --------SCROLL DOWN -------------*/
 
 /* .scroll_down {
-    position: absolute;
-    right: - 2.9;
+     position: absolute;
+     right: - 2.9; 
     bottom: 5rem;
   
 } */
