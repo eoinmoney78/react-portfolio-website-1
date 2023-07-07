@@ -22,7 +22,7 @@
     --transition: all 400ms ease;
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 
 
 }
@@ -72,7 +72,7 @@ background-image: url(../src/assets/bg-texture.png)
 
  section {
     margin-top: 8rem;
-    height: 100vh;
+  
  }
 
  section > h2, section > h5 {
