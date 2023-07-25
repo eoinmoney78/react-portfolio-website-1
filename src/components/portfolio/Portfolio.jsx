@@ -23,8 +23,69 @@ const Portfolio = () => {
             </div>
 
             <h3>Portfolio item Title</h3>
+
+            <div className="portfolio_item-cta">
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
+            </div>
+          
+          </article>
+
+
+
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+                <img src={IMG1} alt="" />
+
+            </div>  
+
+            <h3>Portfolio item Title</h3>
+            <div className="portfolio_item-cta">
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
+            </div>
+          </article>
+
+
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+                <img src={IMG1} alt="" />
+
+            </div>
+
+            <h3>Portfolio item Title</h3>
+            <div className="portfolio_item-cta">
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
+            </div>
+          </article>
+
+
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+                <img src={IMG1} alt="" />
+
+            </div>
+
+            <h3>Portfolio item Title</h3>
+            <div className="portfolio_item-cta">
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
+            </div>
+          </article>
+
+
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+                <img src={IMG1} alt="" />
+
+            </div>
+
+            <h3>Portfolio item Title</h3>
+            <div className="portfolio_item-cta">
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
+            </div>
           </article>
 
 
@@ -36,57 +97,10 @@ const Portfolio = () => {
             </div>
 
             <h3>Portfolio item Title</h3>
+            <div className="portfolio_item-cta">
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
-          </article>
-
-
-          <article className="portfolio_item">
-            <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
-
             </div>
-
-            <h3>Portfolio item Title</h3>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
-          </article>
-
-
-          <article className="portfolio_item">
-            <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
-
-            </div>
-
-            <h3>Portfolio item Title</h3>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
-          </article>
-
-
-          <article className="portfolio_item">
-            <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
-
-            </div>
-
-            <h3>Portfolio item Title</h3>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
-          </article>
-
-
-
-          <article className="portfolio_item">
-            <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
-
-            </div>
-
-            <h3>Portfolio item Title</h3>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
           </article>
 
 
