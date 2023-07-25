@@ -35,13 +35,13 @@ const Portfolio = () => {
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
+                <img src={IMG2} alt="" />
 
             </div>  
 
             <h3>Portfolio item Title</h3>
             <div className="portfolio_item-cta">
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/eoinmoney78/fhfc-soccer" className="btn" target='_blank'>Github</a>
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
             </div>
           </article>
@@ -49,7 +49,21 @@ const Portfolio = () => {
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
+                <img src={IMG3} alt="" />
+
+            </div>
+
+            <h3>Portfolio item Title</h3>
+            <div className="portfolio_item-cta">
+            <a href="https://github.com/eoinmoney78/teamGit" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
+            </div>
+          </article>
+
+
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+                <img src={IMG4} alt="" />
 
             </div>
 
@@ -63,21 +77,7 @@ const Portfolio = () => {
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
-
-            </div>
-
-            <h3>Portfolio item Title</h3>
-            <div className="portfolio_item-cta">
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
-            </div>
-          </article>
-
-
-          <article className="portfolio_item">
-            <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
+                <img src={IMG5} alt="" />
 
             </div>
 
@@ -92,7 +92,7 @@ const Portfolio = () => {
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-                <img src={IMG1} alt="" />
+                <img src={IMG6} alt="" />
 
             </div>
 
