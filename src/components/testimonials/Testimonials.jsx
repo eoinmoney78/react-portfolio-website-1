@@ -5,75 +5,62 @@ import AVTR2 from '../../assets/avatar2.jpg';
 import AVTR3 from '../../assets/avatar3.jpg';
 import AVTR4 from '../../assets/avatar4.jpg';
 
+import { Pagination, Navigation } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+const data = [
+  {
+    avatar: AVTR1,
+    name: 'John Snow',
+    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
+  },
+{
+  avatar: AVTR2,
+  name: 'Tina Turner',
+  review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
+},
+{
+avatar: AVTR3,
+name: 'Rickey Bobby',
+review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
+},
+{
+avatar: AVTR4,
+name: 'dink Dinklage',
+review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
+}
+];
+
+
+
 const Testimonials = () => {
   return (
     <section id="testimonials">
       <h5>Review from Clinets</h5>
       <h2>Testimonials</h2>
 
-      <div className="container testimonials_container">
-
-         
-        <article className="testimonial">
-        
-            <div className="client_avatar">
-              <img src= {AVTR1} alt="Avatar one" />
-            </div>
-            <h5 className="client_name">Eoin Noonan</h5>
-            <small className="client_review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere quidem itaque laboriosam sint cum ad numquam facilis culpa nulla.
-            </small>
-        
-        </article>
-
-              
-
-            
-        <article className="testimonial">
-         
-            <div className="client_avatar">
-
-            <img src= {AVTR2} alt="Avatar two" />
-            </div>
-            <h5 className="client_name">Benny Blanco</h5>
-            <small className="client_review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere quidem itaque laboriosam sint cum ad numquam facilis culpa nulla.
-            </small>
-          
-        </article>
-
-            
-        <article className="testimonial">
-          
-            <div className="client_avatar">
-
-            <img src= {AVTR3} alt="Avatar Three" />
-            </div>
-            <h5 className="client_name">Cat Stevens</h5>
-            <small className="client_review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere quidem itaque laboriosam sint cum ad numquam facilis culpa nulla.
-            </small>
-        
-        </article>
-
-            
-        <article className="testimonial">
-        
-            <div className="client_avatar">
-
-            <img src= {AVTR4} alt="Avatar Four" />
-            </div>
-            <h5 className="client_name">Jim Jones</h5>
-            <small className="client_review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere quidem itaque laboriosam sint cum ad numquam facilis culpa nulla.
-            </small>
-          
-        </article>
-
-
-
-
-      </div>
+      <Swiper
+        className="container testimonials_container"
+        modules={[Pagination, Navigation]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+      >
+        {data.map(({ avatar, name, review }, index) => {
+          return (
+            <SwiperSlide key={index} className="testimonial">
+              <div className="client_avatar">
+                <img src={avatar} alt={name} />
+              </div>
+              <h5 className="client_name">{name}</h5>
+              <small className="client_review">{review}</small>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </section>
   )
 }

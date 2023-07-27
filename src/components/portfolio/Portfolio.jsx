@@ -25,8 +25,8 @@ const Portfolio = () => {
             <h3>Portfolio item Title</h3>
 
             <div className="portfolio_item-cta">
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href="https://github.com/eoinmoney78/Todo-app" className="btn" target='_blank'>Github</a>
+            <a href="https://eoinmoney78.github.io/Todo-app/" className="btn btn-primary" target='_blank'>Live Demo</a>
             </div>
           
           </article>
@@ -41,8 +41,8 @@ const Portfolio = () => {
 
             <h3>Portfolio item Title</h3>
             <div className="portfolio_item-cta">
-            <a href="https://github.com/eoinmoney78/fhfc-soccer" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href="https://github.com/eoinmoney78/shopping-list" className="btn" target='_blank'>Github</a>
+            <a href="https://eoinmoney78.github.io/shopping-list/" className="btn btn-primary" target='_blank'>Live Demo</a>
             </div>
           </article>
 
@@ -59,7 +59,7 @@ const Portfolio = () => {
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
             </div>
           </article>
-
+{/* 
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
@@ -72,10 +72,10 @@ const Portfolio = () => {
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
             </div>
-          </article>
+          </article> */}
 
 
-          <article className="portfolio_item">
+          {/* <article className="portfolio_item">
             <div className="portfolio_item-image">
                 <img src={IMG5} alt="" />
 
@@ -101,7 +101,7 @@ const Portfolio = () => {
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn" target='_blank'>Github</a>
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
             </div>
-          </article>
+          </article> */}
 
 
         </div>
