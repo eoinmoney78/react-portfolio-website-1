@@ -3,9 +3,9 @@ import './portfolio.css';
 import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+// import IMG4 from '../../assets/portfolio4.jpg';
+// import IMG5 from '../../assets/portfolio5.png';
+// import IMG6 from '../../assets/portfolio6.jpg';
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -22,7 +22,8 @@ const Portfolio = () => {
 
             </div>
 
-            <h3>Portfolio item Title</h3>
+            <h3>ToDo App</h3>
+
 
             <div className="portfolio_item-cta">
             <a href="https://github.com/eoinmoney78/Todo-app" className="btn" target='_blank'>Github</a>
@@ -39,7 +40,7 @@ const Portfolio = () => {
 
             </div>  
 
-            <h3>Portfolio item Title</h3>
+            <h3>Shopping list app</h3>
             <div className="portfolio_item-cta">
             <a href="https://github.com/eoinmoney78/shopping-list" className="btn" target='_blank'>Github</a>
             <a href="https://eoinmoney78.github.io/shopping-list/" className="btn btn-primary" target='_blank'>Live Demo</a>
@@ -53,7 +54,7 @@ const Portfolio = () => {
 
             </div>
 
-            <h3>Portfolio item Title</h3>
+            <h3>Portfolio</h3>
             <div className="portfolio_item-cta">
             <a href="https://github.com/eoinmoney78/teamGit" className="btn" target='_blank'>Github</a>
             <a href="https://github.com/eoinmoney78/react-portfolio-website-1" className="btn btn-primary" target='_blank'>Live Demo</a>
