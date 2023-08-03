@@ -19,6 +19,7 @@
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
+    --color-lighter: white;
     --color-footer: rgba(255, 119, 0, 0.048);
     --transition: all 400ms ease;
     --container-width-lg: 75%;
@@ -42,7 +43,7 @@
    background: var(--color-bg);
    color: var(--color-white);
    line-height: 1.7;
-   background: linear-gradient(rgba(20, 30, 10, 0.6), rgba(0, 0, 0, 0.2)), url(../src/assets/pexels-aaron-kittredge-3624339.jpg);
+   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../src/assets/pexels-aaron-kittredge-3624339.jpg);
   
    
    background-position: center; /* Center the image */
