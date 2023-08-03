@@ -19,10 +19,12 @@
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
+    --color-footer: rgba(255, 119, 0, 0.048);
     --transition: all 400ms ease;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+
 
 
 }
@@ -36,20 +38,17 @@
  }
 
  body {
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Poppins', sans-serif;
-
-background: var(--color-bg);
-color: var(--color-white);
-line-height: 1.7;
-background-image: url(../src/assets/bg-texture.png)
-
- }
-
-
- /*  ++++++++ GENERAL STYLES */
-
+   font-family: 'Montserrat', sans-serif, 'Poppins', sans-serif;
+   background: var(--color-bg);
+   color: var(--color-white);
+   line-height: 1.7;
+   background: linear-gradient(rgba(20, 30, 10, 0.6), rgba(0, 0, 0, 0.2)), url(../src/assets/pexels-aaron-kittredge-3624339.jpg);
+  
+   
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; 
+}
 
  .container {
     width: var(--container-width-lg);
@@ -128,6 +127,7 @@ background-image: url(../src/assets/bg-texture.png)
     width: 100%;
     object-fit: cover;
  }
+ 
 
 
  /* media devices */
