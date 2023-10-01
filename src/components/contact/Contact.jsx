@@ -29,7 +29,7 @@ const Contact = () => {
           <MdEmail className="contact-option-icon"/>
           <h4>Email</h4>
           <h5>eoinnoonan8@gmail.com</h5>
-          <a href="mailto:woodenreverie@yahoo.com" target="_blank">Send A Message</a>
+          <a href="mailto:eoinnoonan8@gmail.com." target="_blank">Send A Message</a>
         </article>
 
         <article className="contact-option">
