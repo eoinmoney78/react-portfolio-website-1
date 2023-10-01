@@ -3,6 +3,8 @@ import './contact.css';
 import { MdEmail } from 'react-icons/md';
 import { FaFacebookMessenger } from 'react-icons/fa';
 import {BsWhatsapp } from 'react-icons/bs';
+import { FaInstagram } from 'react-icons/fa';
+
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 const Contact = () => {
@@ -27,7 +29,7 @@ const Contact = () => {
           <MdEmail className="contact-option-icon"/>
           <h4>Email</h4>
           <h5>eoinnoonan8@gmail.com</h5>
-          <a href="mailto:eoinnoonan@gmail.com" target="_blank">Send A Message</a>
+          <a href="mailto:woodenreverie@yahoo.com" target="_blank">Send A Message</a>
         </article>
 
         <article className="contact-option">
@@ -38,10 +40,16 @@ const Contact = () => {
         </article>
 
         <article className="contact-option">
-      <BsWhatsapp className="contact-option-icon"/>
-      <h4>Whats App</h4>
-      <h5>18028554341</h5> 
-      <a href="https://api.whatsapp.com/send?phone=18028554341" target="_blank">Send A Message</a>
+  <FaInstagram className="contact-option-icon" />
+  <h4>Instagram</h4>
+  <h5>Your Instagram Handle</h5>
+  <a
+    href="https://www.instagram.com/eoinmoney78"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Visit Profile
+  </a>
 </article>
 
 

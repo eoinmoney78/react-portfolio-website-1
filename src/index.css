@@ -43,7 +43,7 @@
    background: var(--color-bg);
    color: var(--color-white);
    line-height: 1.7;
-   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../src/assets/pexels-aaron-kittredge-3624339.jpg);
+   background: linear-gradient(rgba(23, 22, 20, 0.854), rgba(71, 43, 43, 0.4));
   
    
    background-position: center; /* Center the image */

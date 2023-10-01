@@ -13,7 +13,7 @@
 }
 
 .contact-option {
-    background: var(--color-bg-variant);
+    background: green;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;

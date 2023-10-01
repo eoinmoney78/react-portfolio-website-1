@@ -51,7 +51,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Creating dynamic, interactive web applications using modern technologies such as React, Angular, and Vue.</p>
+              <p>Creating dynamic, interactive web applications using modern technologies such as React.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />

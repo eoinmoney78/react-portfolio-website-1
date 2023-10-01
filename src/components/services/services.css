@@ -1,13 +1,6 @@
 
 
-/* .services_container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 3rem;
-    
 
-} */
 .services_container {
     display: flex;
     justify-content: center;
