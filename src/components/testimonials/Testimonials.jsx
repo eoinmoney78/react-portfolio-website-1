@@ -14,8 +14,8 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'John Snow',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
+    name: 'Jeremy woods',
+    review: 'Working with Eoin on our cabinet refacing website was a game-changer. The site not only captures the essence of our brand but also makes it easier for our clients to navigate and book services. The attention to detail, coupled with an intuitive design, has led to increased traffic and client engagement. I appreciate the professionalism and timely delivery. Highly recommended for anyone looking to elevate their online presence.'
   },
 {
   avatar: AVTR2,

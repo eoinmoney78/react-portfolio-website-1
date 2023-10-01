@@ -43,7 +43,7 @@
    background: var(--color-bg);
    color: var(--color-white);
    line-height: 1.7;
-   background: linear-gradient(rgba(23, 22, 20, 0.854), rgba(71, 43, 43, 0.4));
+   background: linear-gradient(rgba(23, 22, 20, 0.854), rgba(16, 9, 9, 0.4));
   
    
    background-position: center; /* Center the image */

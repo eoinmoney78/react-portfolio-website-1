@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css';
 import { MdEmail } from 'react-icons/md';
 import { FaFacebookMessenger } from 'react-icons/fa';
-import {BsWhatsapp } from 'react-icons/bs';
+
 import { FaInstagram } from 'react-icons/fa';
 
 import { useRef } from 'react';
@@ -29,14 +29,14 @@ const Contact = () => {
           <MdEmail className="contact-option-icon"/>
           <h4>Email</h4>
           <h5>eoinnoonan8@gmail.com</h5>
-          <a href="mailto:eoinnoonan8@gmail.com." target="_blank">Send A Message</a>
+          <a href="mailto:eoinnoonan8@gmail.com." target="_blank" rel="noopener noreferrer">Send A Message</a>
         </article>
 
         <article className="contact-option">
           <FaFacebookMessenger className="contact-option-icon"/>
           <h4>Messanger</h4>
           <h5> Facebook messanger</h5>
-          <a href="https://m.me/eoin.noonan.73" target="_blank">Send A Message</a>
+          <a href="https://m.me/eoin.noonan.73" target="_blank" rel="noopener noreferrer">Send A Message</a>
         </article>
 
         <article className="contact-option">
