@@ -16,7 +16,7 @@
     border-radius: 2rem;
     overflow: hidden;
     transform-origin: center;
-    transition: transform 0.46s ease-in-out;
+    transition: transform 1s ease-in-out;
   }
   
   .about_me-image:hover {
@@ -35,6 +35,7 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    transition: .41s ease-in-out;
 
   }
 
@@ -42,6 +43,7 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    /* background-color: grey; */
 
   }
 
