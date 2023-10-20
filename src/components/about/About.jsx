@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import ME from '../../assets/eoin-dev.jpeg';
+import ME from '../../assets/eoin-headshot-2.jpg';
 import{BsAward} from 'react-icons/bs';
 import {FiUsers} from 'react-icons/fi';
 import {BsFolderFill} from 'react-icons/bs';
@@ -13,6 +13,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
+          <div className="gradient-overlay"></div>
             <img src={ME} alt="me" />
           </div>
         </div>

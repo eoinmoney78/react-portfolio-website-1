@@ -13,11 +13,26 @@
      place-items: center; 
 } 
 .about_me-image {
+  position: relative;
     border-radius: 2rem;
     overflow: hidden;
     transform-origin: center;
     transition: transform 1s ease-in-out;
   }
+  .about_me-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)); /* Change the rgba values to control the gradient's opacity */
+  z-index: 1; 
+}
   
   .about_me-image:hover {
     transform: rotate(10deg);

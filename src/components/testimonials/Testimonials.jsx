@@ -15,24 +15,24 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Jeremy woods',
-    review: 'Working with Eoin on our cabinet refacing website was a game-changer. The site not only captures the essence of our brand but also makes it easier for our clients to navigate and book services. The attention to detail, coupled with an intuitive design, has led to increased traffic and client engagement. I appreciate the professionalism and timely delivery. Highly recommended for anyone looking to elevate their online presence.'
-  },
-{
-  avatar: AVTR2,
-  name: 'Tina Turner',
-  review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
-},
-{
-avatar: AVTR3,
-name: 'Rickey Bobby',
-review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
-},
-{
-avatar: AVTR4,
-name: 'dink Dinklage',
-review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
-}
-];
+    review: "Collaborating with Eoin on the development of our website dedicated to wooden artwork and custom wood pieces was nothing short of exceptional. Throughout the project, Eoin demonstrated a keen understanding of our brand, which is now beautifully encapsulated in the site's design. The layout is not only visually appealing but also user-friendly, ensuring our clients can effortlessly navigate and access our services. His meticulous attention to detail and intuitive design sense promises to amplify our site traffic and client interaction once we go live. Beyond his technical prowess, Eoin's professionalism and adherence to deadlines stood out, making the entire experience smooth and hassle-free. While the site is in its final stages of launching, I am already confident in recommending Eoin to anyone aiming to enhance their digital footprint."
+  }
+// {
+//   avatar: AVTR2,
+//   name: 'Tina Turner',
+//   review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
+// },
+// {
+// avatar: AVTR3,
+// name: 'Rickey Bobby',
+// review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
+// },
+// {
+// avatar: AVTR4,
+// name: 'dink Dinklage',
+// review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus fugiat, repellendus aliquam quisquam quos tenetur neque aspernatur eligendi minus enim culpa nobis quasi facilis.'
+// }
+ ];
 
 
 
