@@ -51,7 +51,7 @@ input, textarea {
     background: transparent;
     border: 2px solid black;
     resize: none;
-    color: var(--color-white);
+    color: black;
 
 }
 
