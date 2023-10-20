@@ -33,7 +33,7 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: 16rem;
     bottom: 3rem;
 
 }
@@ -84,7 +84,23 @@ header {
     header{
         height: 100vh;
     }
-    .header_socials,
+    .me {
+        /* Adjust the positioning and maybe other properties for the image */
+        left: 50%;
+        transform: translate(-50%, 0); /* Center the image horizontally */
+        margin-top: 2rem; /* Adjust as needed */
+        margin-bottom: 1.5rem; /* Space between the image and the socials, adjust as needed */
+    }
+    .header_socials {
+        display: flex;
+        flex-direction: row; /* Making it row on small screens */
+        justify-content: center; /* Center the social icons horizontally */
+        position: static; /* Removing absolute positioning */
+        gap: 0.8rem; /* Adjust spacing between icons as needed */
+    }
+    .header_socials::after {
+        display: none; /* Removing the vertical line since it's now a row */
+    }
     .scroll_down {
         display: none;
     }
