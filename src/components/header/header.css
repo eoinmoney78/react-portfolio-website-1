@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     overflow: hidden;
 
 }
@@ -10,10 +10,10 @@ header {
     height: 100%;
     position: relative;
 }
-img {
+/* img {
     border-radius: 20px;
     
-}
+} */
 
 /* ---------- CTA------------*/
 
@@ -54,11 +54,11 @@ img {
     width: 29rem;
     height: 17rem;
     position: absolute;
-    left: 50%;
+    left: 45%;
     transform: translate(-45%);
     margin-top: 3rem;
     /* overflow: hidden; */
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
    border-radius: 20px;
 }
 
