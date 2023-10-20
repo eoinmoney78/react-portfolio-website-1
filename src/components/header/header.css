@@ -51,10 +51,10 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 29rem;
+    width: 17rem;
     height: 17rem;
     position: absolute;
-    left: 45%;
+    left: 50%;
     transform: translate(-45%);
     margin-top: 3rem;
     /* overflow: hidden; */
