@@ -11,7 +11,7 @@ const Nav = () => {
     const [activeNav, setActiveNav] = useState('#');
   return (
    <nav>
-        <a href="#" onClick={() => setActiveNav('#')}className={activeNav === '#' ? 'active' : ''}>
+        <a href="#home" onClick={() => setActiveNav('#home')}className={activeNav === '#home' ? 'active' : ''}>
         <AiTwotoneHome />
       </a>
 
