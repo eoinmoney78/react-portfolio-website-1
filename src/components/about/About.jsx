@@ -44,7 +44,7 @@ const About = () => {
 Through my freelance projects, I have had the opportunity to work with a diverse range of clients, allowing me to tackle various challenges and continuously grow as a developer. Whether it's implementing complex database structures, optimizing application performance, or integrating third-party services, I thrive in solving problems and delivering efficient solutions.
 If you have a project in mind or if you'd like to discuss any potential collaborations, feel free to reach out to me. Let's work together to create something remarkable! 
         </p>
-        <a href="#contacts" className="btn btn-primary">Lets Talk</a>
+        <a href="#contact" className="btn btn-primary">Lets Talk</a>
         </div>
       </div>
     </section>
